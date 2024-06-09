@@ -1,6 +1,6 @@
 'use client';
 import { HoverEffect } from "./ui/card-hover-effect";
-function UpcomingSongs() {
+function FeaturtedSongs() {
     const songs = [
         {
           "title": "Bohemian Rhapsody",
@@ -60,4 +60,4 @@ function UpcomingSongs() {
     );
 }
 
-export default UpcomingSongs;
+export default FeaturtedSongs;

@@ -84,9 +84,9 @@ function FeaturedArtists() {
       
 
   return (
-    <div>
-        <h1 className="text-base font-extrabold tracking-wide text-teal-500 uppercase text-center bg-slate-900 pt-10"> Featured Artists</h1>
-        <p className="pt-2 text-3xl leading-8 font-extrabold tracking-light text-white sm:text-4xl bg-slate-900 text-center pb-4">
+    <div className="py-12 min-h-screen flex flex-col justify-center">
+        <h1 className="text-base font-extrabold tracking-wide text-teal-500 uppercase text-center pt-10"> Featured Artists</h1>
+        <p className="pt-2 text-3xl leading-8 font-extrabold tracking-light text-white sm:text-4xl  text-center pb-4">
         Meet the Maestros of Music.
         </p>
         <StickyScroll content={featuredArtists} />

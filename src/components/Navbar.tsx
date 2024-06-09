@@ -15,14 +15,10 @@ function Navbar({ className }: { className?: string }) {
       <MenuItem setActive={setActive} active={active} item="Home">
       </MenuItem>
       </Link>
-      <MenuItem setActive={setActive} active={active} item="Our Courses">
-        <div className="flex flex-col space-y-4 text-sm">
-          <HoveredLink href="/courses">All courses</HoveredLink>
-          <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-          <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-          <HoveredLink href="/branding">Branding</HoveredLink>
-        </div>
-      </MenuItem>
+      <Link href="/collections">
+        <MenuItem setActive={setActive} active={active} item="Collections">
+        </MenuItem>
+      </Link>
       <Link href="/contact">
         <MenuItem setActive={setActive} active={active} item="Contact">
         </MenuItem>

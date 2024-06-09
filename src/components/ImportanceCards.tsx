@@ -56,7 +56,7 @@ function ImportanceCards() {
     ];
 
     return (
-        <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
+        <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.1] relative flex flex-col items-center justify-center overflow-hidden">
             <h2 className="mt-2 text-3xl leading-8 font-extrabold tracking-light text-white sm:text-4xl mb-8">
                 The Timeless Influence of Music
             </h2>

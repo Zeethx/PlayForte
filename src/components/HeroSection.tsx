@@ -11,18 +11,18 @@ function HeroSection() {
             />
             <div className="p-4 relative z-10 w-full text-center">
                 <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                    Music that Moves You
+                Explore the World of Music
                 </h1>
                 <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto">
                 Embark on a musical journey with curated playlists. Discover new genres, revisit old favorites, and let the music take you away.
                 </p>
                 <div className="mt-4">
-                    <Link href="/catalog">
+                    <Link href="/collections">
                         <Button 
                         borderRadius="1.75rem"
                         className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
                         borderClassName="bg-[radial-gradient(var(--white)_40%,transparent_60%)]"
-                        >Explore Catalog</Button>
+                        >Explore</Button>
                     </Link>
                 </div>
             </div>

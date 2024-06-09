@@ -1,95 +1,92 @@
 {
-    "playlists": [
-      {
-        "id": 1,
-        "title": "iter solus",
-        "slug": "iter-solus",
-        "description": "A curated collection for introspective moments.",
-        "popularity": 78,
-        "creator": "Raghav",
-        "isFeatured": true,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e024eb044f24614b9ec08ccabc4ab67616d00001e026f95446c5dd8806464b836e6ab67616d00001e02b54291f7289c20ce2af1b678ab67616d00001e02c1bf87b808e3de89223dcaad"
-      },
-      {
-        "id": 2,
-        "title": "What A Wonderful World",
-        "slug": "what-a-wonderful-world",
-        "description": "Songs that celebrate the beauty of life.",
-        "popularity": 85,
-        "creator": "Raghav",
-        "isFeatured": false,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e02304303f680ec822d764827caab67616d00001e02845a5660b804e5f3e821fbedab67616d00001e02adc2c5496ae3362d8f738c8dab67616d00001e02bcaf6f097b310e20504f2de0"
-      },
-      {
-        "id": 3,
-        "title": "I dream of the day",
-        "slug": "i-dream-of-the-day",
-        "description": "A playlist for dreamers and visionaries.",
-        "popularity": 82,
-        "creator": "Raghav",
-        "isFeatured": false,
-        "image": "https://i.scdn.co/image/ab67706c0000da843779e50d88c154c536d86348"
-      },
-      {
-        "id": 4,
-        "title": "Jeremy",
-        "slug": "jeremy",
-        "description": "A collection of songs with deep emotional resonance.",
-        "popularity": 79,
-        "creator": "Raghav",
-        "isFeatured": false,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e020f69d05f719894d8d9b1df66ab67616d00001e02643f4b5b8750210fe9ddd5acab67616d00001e02b40612c31a6cf9795bf494e1ab67616d00001e02e59615b5018e1de7d4aaea18"
-      },
-      {
-        "id": 5,
-        "title": "tristis horis",
-        "slug": "tristis-horis",
-        "description": "Melancholic tunes for reflective hours.",
-        "popularity": 76,
-        "creator": "Raghav",
-        "isFeatured": true,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e0242a40a52d0ca337608cf2f77ab67616d00001e02931ee3d319a69e772fd00736ab67616d00001e02cc8caaacb3aef5bdc8266632ab67616d00001e02ee4400f190697f6d4e589d32"
-      },
-      {
-        "id": 6,
-        "title": "You, not me",
-        "slug": "you-not-me",
-        "description": "A playlist about love and relationships.",
-        "popularity": 84,
-        "creator": "Raghav",
-        "isFeatured": false,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e023acbe79d4a2013021b607a84ab67616d00001e02b4d59e6fa7e5e7cbc57ac33aab67616d00001e02c61b46cf682d7f0183fcb87cab67616d00001e02cda826d365bd5cf8e0a4d815"
-      },
-      {
-        "id": 7,
-        "title": "jeremy zucker complete",
-        "slug": "jeremy-zucker-complete",
-        "description": "Complete collection of Jeremy Zucker's hits.",
-        "popularity": 91,
-        "creator": "Raghav",
-        "isFeatured": true,
-        "image": "https://i.scdn.co/image/ab67706c0000da84477c07f2302a28103aca50b5"
-      },
-      {
-        "id": 8,
-        "title": "Origins",
-        "slug": "origins",
-        "description": "Exploring the roots of various music genres.",
-        "popularity": 83,
-        "creator": "Raghav",
-        "isFeatured": false,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e0204f21e12e67ba0dfd5db4fbfab67616d00001e02206517a3f7e4c34bf0bfc531ab67616d00001e028265a736a1eb838ad5a0b921ab67616d00001e029e1cfc756886ac782e363d79"
-      },
-      {
-        "id": 9,
-        "title": "Bhenchod Sutta",
-        "slug": "bhenchod-sutta",
-        "description": "A rebellious collection for those who dare.",
-        "popularity": 88,
-        "creator": "Raghav",
-        "isFeatured": true,
-        "image": "https://mosaic.scdn.co/300/ab67616d00001e020de1e597e2a3c89222b57e01ab67616d00001e0241f8d8609fd9b955e54ce9ffab67616d00001e026a64263c8e372c61b0f546a2ab67616d00001e02b4ed312e48e0a69e47f0899d"
-      }
-    ]
-  }
-  
+  "playlists": [
+    {
+      "id": 1,
+      "title": "iter solus",
+      "slug": "iter-solus",
+      "description": "A curated collection for introspective moments.",
+      "popularity": 78,
+      "creator": "Raghav",
+      "isFeatured": true,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e024eb044f24614b9ec08ccabc4ab67616d00001e026f95446c5dd8806464b836e6ab67616d00001e02b54291f7289c20ce2af1b678ab67616d00001e02c1bf87b808e3de89223dcaad",
+      "link": "https://open.spotify.com/playlist/6toHmtgYmEHTq6SUkHt4gp"
+    },
+    {
+      "id": 2,
+      "title": "What A Wonderful World",
+      "slug": "what-a-wonderful-world",
+      "description": "Songs that celebrate the beauty of life.",
+      "popularity": 85,
+      "creator": "Raghav",
+      "isFeatured": false,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e02304303f680ec822d764827caab67616d00001e02845a5660b804e5f3e821fbedab67616d00001e02adc2c5496ae3362d8f738c8dab67616d00001e02bcaf6f097b310e20504f2de0",
+      "link": "https://open.spotify.com/playlist/1uARB6rXaS7fTtxShFwst6"
+    },
+    {
+      "id": 3,
+      "title": "Jeremy",
+      "slug": "jeremy",
+      "description": "A collection of songs with deep emotional resonance.",
+      "popularity": 79,
+      "creator": "Raghav",
+      "isFeatured": false,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e020f69d05f719894d8d9b1df66ab67616d00001e02643f4b5b8750210fe9ddd5acab67616d00001e02b40612c31a6cf9795bf494e1ab67616d00001e02e59615b5018e1de7d4aaea18",
+      "link": "https://open.spotify.com/playlist/2EyEh0vZBG5ss535XPH1ru"
+    },
+    {
+      "id": 4,
+      "title": "tristis horis",
+      "slug": "tristis-horis",
+      "description": "Melancholic tunes for reflective hours.",
+      "popularity": 76,
+      "creator": "Raghav",
+      "isFeatured": true,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e0242a40a52d0ca337608cf2f77ab67616d00001e02931ee3d319a69e772fd00736ab67616d00001e02cc8caaacb3aef5bdc8266632ab67616d00001e02ee4400f190697f6d4e589d32",
+      "link": "https://open.spotify.com/playlist/0vlooejw7JuQdXlDQgIZpG"
+    },
+    {
+      "id": 5,
+      "title": "You, not me",
+      "slug": "you-not-me",
+      "description": "A playlist about love and relationships.",
+      "popularity": 84,
+      "creator": "Raghav",
+      "isFeatured": false,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e023acbe79d4a2013021b607a84ab67616d00001e02b4d59e6fa7e5e7cbc57ac33aab67616d00001e02c61b46cf682d7f0183fcb87cab67616d00001e02cda826d365bd5cf8e0a4d815",
+      "link": "https://open.spotify.com/playlist/4uNb8f1h3mgPfuB5jVXbFs"
+    },
+    {
+      "id": 6,
+      "title": "jeremy zucker complete",
+      "slug": "jeremy-zucker-complete",
+      "description": "Complete collection of Jeremy Zucker's hits.",
+      "popularity": 91,
+      "creator": "Raghav",
+      "isFeatured": true,
+      "image": "https://i.scdn.co/image/ab67706c0000da84477c07f2302a28103aca50b5",
+      "link": "https://open.spotify.com/playlist/6DGHBRRN2NJ4XVY1hHyer2"
+    },
+    {
+      "id": 7,
+      "title": "Origins",
+      "slug": "origins",
+      "description": "Exploring the roots of various music genres.",
+      "popularity": 83,
+      "creator": "Raghav",
+      "isFeatured": false,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e0204f21e12e67ba0dfd5db4fbfab67616d00001e02206517a3f7e4c34bf0bfc531ab67616d00001e028265a736a1eb838ad5a0b921ab67616d00001e029e1cfc756886ac782e363d79",
+      "link": "https://open.spotify.com/playlist/5WaPsG5NYaqXOksTkp3iOu"
+    },
+    {
+      "id": 8,
+      "title": "Bhenchod Sutta",
+      "slug": "bhenchod-sutta",
+      "description": "A rebellious collection for those who dare.",
+      "popularity": 88,
+      "creator": "Raghav",
+      "isFeatured": true,
+      "image": "https://mosaic.scdn.co/300/ab67616d00001e020de1e597e2a3c89222b57e01ab67616d00001e0241f8d8609fd9b955e54ce9ffab67616d00001e026a64263c8e372c61b0f546a2ab67616d00001e02b4ed312e48e0a69e47f0899d",
+      "link": "https://open.spotify.com/playlist/1ZHtv21dkywV3LdCyoNRk6"
+    }
+  ]
+}

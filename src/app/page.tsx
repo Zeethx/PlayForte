@@ -3,7 +3,9 @@ import HeroSection from "@/components/HeroSection";
 import FeaturedCollections from "@/components/FeaturedCollections";
 import FeaturedArtists from "@/components/FeaturedArtists";
 import ImportanceCards from "@/components/ImportanceCards";
-import UpcomingSongs from "@/components/UpcomingSongs";
+import FeaturtedMusic from "@/components/FeaturedMusic";
+import MeetOurCurators from "@/components/MeetOurCurators";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
       <FeaturedCollections />
       <FeaturedArtists />
       <ImportanceCards />
-      <UpcomingSongs />
+      <FeaturtedMusic />
+      <MeetOurCurators />
+      <Footer />
     </main>
   );
 }

@@ -19,7 +19,7 @@ function FeaturedCollections() {
     const featuredPlaylists = playlistData.playlists.filter((playlist:Playlist) => playlist.isFeatured === true);
 
     return (
-        <div className="py-12 bg-slate-900 flex flex-col justify-center items-center">
+        <div className="py-12 flex flex-col justify-center items-center min-h-screen border-b-2 border-neutral-950">
             <div className="text-center">
                 <h2 className="text-base font-extrabold tracking-wide text-teal-500 uppercase">
                     Featured Collections
@@ -63,14 +63,6 @@ function FeaturedCollections() {
                     }
                     )}
                 </div>
-            </div>
-            <div className="mt-20 text-center">
-                <Link
-                    href="/collections"
-                    className="shadow-[inset_0_0_0_2px_#616467] text-black px-12 py-4 rounded-full tracking-widest uppercase font-bold bg-transparent hover:bg-[#616467] hover:text-white dark:text-neutral-200 transition duration-200"
-                >
-                    All Playlists
-                </Link>
             </div>
         </div>
     );
