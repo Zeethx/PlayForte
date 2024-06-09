@@ -2,6 +2,8 @@ import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import FeaturedCollections from "@/components/FeaturedCollections";
 import FeaturedArtists from "@/components/FeaturedArtists";
+import ImportanceCards from "@/components/ImportanceCards";
+import UpcomingSongs from "@/components/UpcomingSongs";
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <HeroSection />
       <FeaturedCollections />
       <FeaturedArtists />
+      <ImportanceCards />
+      <UpcomingSongs />
     </main>
   );
 }
