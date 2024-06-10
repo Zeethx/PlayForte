@@ -14,7 +14,7 @@ function page() {
             </h1>
             <div className="flex flex-wrap justify-center">
                 {playlistsData.playlists.map((playlist) => (
-                    <CardContainer className="inter-var mx-4 border-2 rounded-xl drop-shadow-lg">
+                    <CardContainer key={playlist.slug} className="inter-var mx-4 border-2 rounded-xl drop-shadow-lg">
                     <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-teal-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[28rem] h-auto rounded-xl p-6 border  ">
                       <CardItem
                         translateZ="50"

@@ -10,7 +10,7 @@ function Contact() {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     console.log('Submitted:', { email, message });
-    
+
   };
 
   return (
@@ -24,7 +24,7 @@ function Contact() {
           Contact
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-          Want to become a contributor or have any questions? Drop us a message and we'll get back to you as soon as possible. 
+          Want to become a contributor or have any questions? Drop us a message and we&apos;ll get back to you as soon as possible. 
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input

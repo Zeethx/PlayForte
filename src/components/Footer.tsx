@@ -36,15 +36,7 @@ function Footer() {
                         </li>
                         <li>
                             <a
-                                href="#"
-                                className="hover:text-white transition-colors duration-300"
-                            >
-                                Courses
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
+                                href="/contact"
                                 className="hover:text-white transition-colors duration-300"
                             >
                                 Contact
@@ -76,12 +68,12 @@ function Footer() {
                         Contact Us
                     </h2>
                     <p>Windsor, ON</p>
-                    <p>Email: info@playforte.com</p>
+                    <p>Email: info@vibevault.com</p>
                     <p>Phone: (123) 456-7890</p>
                 </div>
             </div>
             <p className="text-center text-xs pt-8">
-                © 2024 PlayForte. All rights reserved.
+                © 2024 VibeVault. All rights reserved.
             </p>
         </footer>
     );

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import playlistData from "../data/playlists.json";
 import { BackgroundGradient } from "./ui/background-gradient";
+import Image from "next/image";
 
 interface Playlist {
     id: number,
@@ -34,11 +35,14 @@ function FeaturedCollections() {
                     {featuredPlaylists.map((playlist:Playlist) => {
                             return (
                                 <BackgroundGradient
+                                key={playlist.slug}
                                 className="flex flex-col rounded-[22px] bg-white dark:bg-slate-800 overflow-hidden h-full">
                                     <div className="relative">
-                                        <img
+                                        <Image
                                             src={playlist.image}
                                             alt={playlist.title}
+                                            width={500}
+                                            height={500}
                                             className="w-full h-48 object-cover object-center"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
