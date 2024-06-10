@@ -12,6 +12,7 @@ interface Playlist {
     creator: string,
     isFeatured: boolean,
     image: string
+    link: string
 }
 
 
@@ -51,7 +52,7 @@ function FeaturedCollections() {
                                         </p>
                                         <div className="mt-4">
                                             <Link
-                                                href={`/collections/${playlist.slug}`}
+                                                href={`${playlist.link}`} target="_blank"
                                                 className="text-teal-500 font-bold hover:text-teal-600 dark:text-teal-400 dark:hover:text-teal-300"
                                             >
                                                 Explore Collection
