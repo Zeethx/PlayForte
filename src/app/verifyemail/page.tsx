@@ -2,7 +2,8 @@
 import React, { useState, useEffect, } from "react";
 import axios from "axios";
 import {toast} from "react-hot-toast";
-import {useRouter} from "next/router";
+import {useRouter} from "next/navigation";
+
 
 export default function VerifyEmailPage() {
 
@@ -12,36 +13,42 @@ export default function VerifyEmailPage() {
     const [verified, setVerified] = useState(false);
     const [error, setError] = useState(false);
 
-    const verifyEmail = async () => {
-        try {
-            const res = await axios.post("/api/users/verifyemail", {token});
-            console.log(res.data);
-            setVerified(true);
-        } catch (error: any) {
-            console.error(error);
-            setError(true);
-            if (error.response) {
-                toast.error(error.response.data.error);
-            } else {
-                toast.error("An error occurred. Please try again.");
+
+    useEffect(() => {
+        setError(false);
+        const verifyEmail = async () => {
+            try {
+                const res = await axios.post("/api/users/verifyemail", {token});
+                console.log(res.data);
+                setVerified(true);
+                router.push("/login");
+            } catch (error: any) {
+                console.error(error);
+                setError(true);
+                if (error.response) {
+                    toast.error(error.response.data.error);
+                } else {
+                    toast.error("An error occurred. Please try again.");
+                }
             }
         }
-    }
 
-    useEffect(() => {
-        const token = router.query.token;
         if(token){
-            setToken(token as string);
-        }
-
-    }, [router.query.token]);
-
-    useEffect(() => {
-        if(token.length > 0){
             verifyEmail();
         }
     }
     , [token]);
+
+    
+    useEffect(() => {
+        setError(false);
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get("token");
+        if(token){
+            setToken(token);
+        }
+
+    }, [router]);
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-950">

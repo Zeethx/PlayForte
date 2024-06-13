@@ -28,7 +28,7 @@ function LoginPage() {
             const res = await axios.post("/api/users/login", user);
             console.log(res.data);
             setLoading(false);
-            router.push("/dashboard");
+            router.push("/");
         } catch (error: any) {
             console.error(error);
             setLoading(false);
@@ -88,7 +88,7 @@ function LoginPage() {
             </form>
             <Link href="/signup">
                 <p className="mt-4">
-                    Don't have an account? <span className="text-blue-400 hover:text-blue-300">Signup</span>
+                    Don&apos;t have an account? <span className="text-blue-400 hover:text-blue-300">Signup</span>
                 </p>
             </Link>
         </div>
