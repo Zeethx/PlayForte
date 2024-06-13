@@ -52,6 +52,8 @@ export const sendMail = async ({
                 <a href="${
                     process.env.CLIENT_URL
                 }/verifyemail?token=${hashedToken}">Click here</a>
+                <p>Or copy and paste the link below in your browser</p>
+                <p>${process.env.CLIENT_URL}/verifyemail?token=${hashedToken}</p>
             `,
         };
 
