@@ -15,6 +15,12 @@ function MeetOurCurators() {
             name: "Ronit Gujral",
             designation: "Beat Guru",
             image: "/ronit-gujral.jpeg",
+        },
+        {
+            id: 3,
+            name: "Maheepjot Singh",
+            designation: "Rhythm Master",
+            image: "/maheep_singh.png",
         }
     ]
   return (
